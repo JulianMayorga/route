@@ -1,11 +1,17 @@
-Enunciado
+Nodejs route
 =========
-> Desarrollar con PHP un script que devuelva la tabla de ruteo de un agente SNMP
+> Devuelve la tabla de ruteo de un agente SNMP
 
-Se va a hacer eso mismo, pero con nodejs y sin php :p
+Uso
+---
+    nodejs route
 
-Tabla de Ruteo
+Requerimientos
 --------------
-OID:    1.3.6.1.2.1.4.24.4
+Es necesario tener instalado un agente SNMP
 
-Nombre: ipRouteTable 
+Variable SNMP utilizada
+-----------------------
+* OID:    1.3.6.1.2.1.4.24.4
+
+* Nombre: ipRouteTable
