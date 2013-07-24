@@ -5,8 +5,6 @@ var snmp = require('snmp-native');
 var host = 'localhost';
 var community = 'public';
 
-var session = new snmp.Session({ host: host, community: community });
-
 // nombre: ipRouteTable
 // OID: 1.3.6.1.2.1.4.24.4
 var oid = [1, 3, 6, 1, 2, 1, 4, 24, 4];

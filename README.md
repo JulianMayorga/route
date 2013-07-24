@@ -1,14 +1,24 @@
-Nodejs route
+Node.js route
 =========
 > Devuelve la tabla de ruteo de un agente SNMP
-
-Uso
----
-    nodejs route
 
 Requerimientos
 --------------
 Es necesario tener instalado un agente SNMP
+
+Uso e Instalacion
+---
+Clonar el repositorio
+
+    git clone JulianMayorga/route.git
+
+Instalar dependencias
+
+    npm install
+
+Correr el programa
+
+    nodejs route
 
 Variable SNMP utilizada
 -----------------------
